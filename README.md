@@ -37,7 +37,7 @@ Users can securely **create**, **read**, **update**, and **delete** notes. The f
 - **dotenv** – To manage environment variables
 
 
-## 1. Clone the repository
+##  Clone the repository
 
 git clone https://github.com/SakshiY-Dev/notes_webapp.git
 cd notes_webapp

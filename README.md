@@ -37,37 +37,38 @@ Users can securely **create**, **read**, **update**, and **delete** notes. The f
 - **dotenv** – To manage environment variables
 
 
-### 1. Clone the repository
+## 1. Clone the repository
 
 git clone https://github.com/SakshiY-Dev/notes_webapp.git
 cd notes_webapp
 
-##Backend Setup
+## Backend Setup
 cd backend
 npm install
 
-##Create a .env file inside the backend/ folder and add:
+## Create a .env file inside the backend/ folder and add:
 
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
-##Start the backend server:
+
+## Start the backend server:
 npm start
 
 
-3. Frontend Setup
-##Open a new terminal:
+## Frontend Setup
+### Open a new terminal:
 cd frontend
 npm install
 npm run dev
 
- API Endpoints 
+## API Endpoints 
 Method	  Endpoint	       Description
 GET	     /api/notes	        Get all notes
 POST	   /api/notes	        Create a new note
 PUT	     /api/notes/:id 	  Update a note
 DELETE   /api/notes/:id	    Delete a note
 
-##This project is licensed under the MIT License.
+### This project is licensed under the MIT License.
 
 
 
